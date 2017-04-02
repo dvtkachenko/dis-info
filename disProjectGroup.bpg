@@ -1,0 +1,58 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = dis_info.exe veksel.dll mak_invoices.dll invoices.dll statistic.dll \
+  nds.dll service.dll shared.dll check.dll tools.dll tcredit.dll coal.dll \
+  contract.dll
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+dis_info.exe: dis_info.dpr
+  $(DCC)
+
+veksel.dll: report_dll\veksel\veksel.dpr
+  $(DCC)
+
+mak_invoices.dll: report_dll\mak_invoices\mak_invoices.dpr
+  $(DCC)
+
+invoices.dll: report_dll\invoices\invoices.dpr
+  $(DCC)
+
+statistic.dll: report_dll\statistic\statistic.dpr
+  $(DCC)
+
+nds.dll: report_dll\nds\nds.dpr
+  $(DCC)
+
+service.dll: service_dll\service.dpr
+  $(DCC)
+
+shared.dll: shared_dll\shared.dpr
+  $(DCC)
+
+check.dll: report_dll\check\check.dpr
+  $(DCC)
+
+tools.dll: report_dll\tools\tools.dpr
+  $(DCC)
+
+tcredit.dll: report_dll\tcredit\tcredit.dpr
+  $(DCC)
+
+coal.dll: report_dll\coal\coal.dpr
+  $(DCC)
+
+contract.dll: report_dll\contract\contract.dpr
+  $(DCC)
+
+

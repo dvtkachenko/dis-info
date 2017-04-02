@@ -1,0 +1,80 @@
+
+
+***********************************************************************
+Fatal NI connect error 12545, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=iud-nt1)(Port=1521))(CONNECT_DATA=(SID=ISD0)(CID=(PROGRAM=C:\Program Files\Borland\Delphi4\Bin\delphi32.exe)(HOST=DTKACHENKO)(USER=dtkachenko))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.1.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.1.6.0.0 - Production
+  Time: 17-СЕН-2001 12:55:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12545
+    TNS-12545: TNS:Сбой соединения, т.к. конечный хост или объект не существуют
+    ns secondary err code: 12560
+    nt main err code: 515
+    TNS-00515: Сбой соединения, т.к. конечный хост или объект не существуют
+    nt secondary err code: 1001
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=iud_nt)(Port=1521))(CONNECT_DATA=(SID=ISDB)(CID=(PROGRAM=C:\Program Files\Borland\Delphi4\Bin\delphi32.exe)(HOST=DTKACHENKO)(USER=dtkachenko))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.1.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.1.6.0.0 - Production
+  Time: 17-СЕН-2001 12:56:52
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:таймаут операции
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Таймаут операции
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=iud_nt)(Port=1521))(CONNECT_DATA=(SID=ISDB)(CID=(PROGRAM=C:\Program Files\Borland\Delphi4\Bin\delphi32.exe)(HOST=DTKACHENKO)(USER=dtkachenko))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.1.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.1.6.0.0 - Production
+  Time: 17-СЕН-2001 12:58:05
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:таймаут операции
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Таймаут операции
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12545, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=iud-nt1)(Port=1521))(CONNECT_DATA=(SID=ISD0)(CID=(PROGRAM=C:\Program Files\Borland\Delphi4\Bin\delphi32.exe)(HOST=DTKACHENKO)(USER=dtkachenko))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.1.6.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 8.1.6.0.0 - Production
+  Time: 17-СЕН-2001 12:59:23
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12545
+    TNS-12545: TNS:Сбой соединения, т.к. конечный хост или объект не существуют
+    ns secondary err code: 12560
+    nt main err code: 515
+    TNS-00515: Сбой соединения, т.к. конечный хост или объект не существуют
+    nt secondary err code: 1001
+    nt OS err code: 0
