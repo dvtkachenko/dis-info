@@ -1,0 +1,1 @@
+This project was designed by using Delphi for big coal trading company. It uses Interbase data storage, SQL, dll modules, ñustomizable multi-user interface.
